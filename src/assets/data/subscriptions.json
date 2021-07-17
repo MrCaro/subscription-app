@@ -1,0 +1,34 @@
+[
+    {
+        "img": "/images/placeholder.png",
+        "name": "netflix",
+        "price": 7.99,
+        "status": true,
+        "date": "04/12",
+        "link": "#"
+    },
+    {
+        "img": "/images/placeholder.png",
+        "name": "amazon",
+        "price": 7.99,
+        "status": false,
+        "date": "04/12",
+        "link": "#"
+    },
+    {
+        "img": "/images/placeholder.png",
+        "name": "target",
+        "price": 7.99,
+        "status": true,
+        "date": "04/12",
+        "link": "#"
+    },
+    {
+        "img": "/images/placeholder.png",
+        "name": "netflix",
+        "price": 7.99,
+        "status": true,
+        "date": "04/12",
+        "link": "#"
+    }
+]

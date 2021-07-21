@@ -1,5 +1,8 @@
 <template>
-    <div class="container mx-auto">       
+    <div class="container mx-auto">      
+        <div>
+            ${{ total }}    
+        </div> 
         <div class="w-full">
             <ul class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-x-16 ">
                 <li 
@@ -12,8 +15,8 @@
                             <img 
                                 class="aspect-w-1 aspect-h-1 object-fit"
                                 :class="subscription.status ? '' : 'opacity-50'"
-                                :srcset="subscription.img"
-                                :src="subscription.img" 
+                                :srcset="subscription.img ? subscription.img : '/images/placeholder.png'"
+                                :src="subscription.img ? subscription.img : '/images/placeholder.png'" 
                                 :alt="subscription.name"
                             >
                         </div>
@@ -22,7 +25,7 @@
                                 <div class="flex justify-between w-full">
                                     <p 
                                         class="font-mono capitalize"
-                                        v-if="subscription.price !== undefined" 
+                                        v-if="subscription.name !== undefined" 
                                     >
                                         {{ subscription.name }}
                                     </p>
@@ -72,18 +75,14 @@
     import subscriptionsJson from '../assets/data/subscriptions.json'
     export default {
         name: 'Cards',
-        props: {
-            msg: String
-        },
         data() {
             return {
-                json: subscriptionsJson
+                json: subscriptionsJson,
+                total: 0,
             }
         },
         methods: {
-            test() {
-                console.log('hello there')
-            }
+            
         }
     }
 </script>

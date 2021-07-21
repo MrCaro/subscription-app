@@ -1,34 +1,58 @@
 [
     {
-        "img": "/images/placeholder.png",
+        "img": "",
         "name": "netflix",
-        "price": 7.99,
+        "price": 14.04,
         "status": true,
-        "date": "04/12",
-        "link": "#"
+        "date": "26th",
+        "link": "https://www.netflix.com/"
     },
     {
-        "img": "/images/placeholder.png",
+        "img": "",
         "name": "amazon",
-        "price": 7.99,
-        "status": false,
-        "date": "04/12",
-        "link": "#"
+        "price": 12.99,
+        "status": true,
+        "date": "4th",
+        "link": "https://www.amazon.com/"
     },
     {
-        "img": "/images/placeholder.png",
-        "name": "target",
-        "price": 7.99,
+        "img": "",
+        "name": "spotify",
+        "price": 9.99,
         "status": true,
-        "date": "04/12",
-        "link": "#"
+        "date": "1st",
+        "link": "https://www.spotify.com/us/"
     },
     {
-        "img": "/images/placeholder.png",
-        "name": "netflix",
-        "price": 7.99,
+        "img": "",
+        "name": "adobe CC",
+        "price": 29.99,
         "status": true,
-        "date": "04/12",
-        "link": "#"
+        "date": "12th",
+        "link": "https://www.adobe.com/creativecloud.html"
+    },
+    {
+        "img": "",
+        "name": "disney+",
+        "price": 6.99,
+        "status": true,
+        "date": "5th",
+        "link": "https://www.disneyplus.com/"
+    },
+    {
+        "img": "",
+        "name": "sling TV",
+        "price": 50.83,
+        "status": true,
+        "date": "24th",
+        "link": "https://watch.sling.com/"
+    },
+    {
+        "img": "",
+        "name": "peacock TV",
+        "price": 4.99,
+        "status": true,
+        "date": "22nd",
+        "link": "https://www.peacocktv.com/"
     }
 ]

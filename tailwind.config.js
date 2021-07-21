@@ -2,17 +2,17 @@ module.exports = {
   prefix: '',
   mode: 'jit',
   separator: ':',
-  // purge: {
-  //   enabled: true,
-  //   content: [
-  //     './pages/**/*.vue',
-  //     './layouts/**/*.vue',
-  //     './components/**/*.vue',
-  //     './src/**/*.{vue,js,ts,jsx,tsx}',
-  //     './public/**/*.html',
-  //     './*.html',
-  //   ],
-  // },
+  purge: {
+    enabled: true,
+    content: [
+      './pages/**/*.vue',
+      './layouts/**/*.vue',
+      './components/**/*.vue',
+      './src/**/*.{vue,js,ts,jsx,tsx}',
+      './public/**/*.html',
+      './*.html',
+    ],
+  },
   theme: {
     screens: {
       sm: '640px',
